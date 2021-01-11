@@ -1,0 +1,24 @@
+{
+  "name": "excelnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "myCmd": "bin/myCmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js F:/Exercise/project/Excel/陈集.xlsx F:/Exercise/project/Excel/新集.xlsx"
+  },
+  "dependencies": {
+    "alasql": "^0.6.5",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "html-pdf": "^2.2.0",
+    "iconv-lite": "^0.6.2",
+    "node-xlsx": "^0.15.0",
+    "package.json": "^2.0.1",
+    "xlsx": "^0.16.9"
+  }
+}
